@@ -28,7 +28,7 @@ jobs:
         with:
           image: anandputhanikar/cicdspringboot
           tags: latest
-          registry: registry-url.io
+          registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
