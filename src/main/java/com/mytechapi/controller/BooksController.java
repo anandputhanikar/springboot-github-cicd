@@ -17,6 +17,16 @@ import java.util.*;
 //        git branch -M main
 //        git push -u origin main
 
+//BASIC USAGE ( docker action) - add below in maven.yml
+// - uses: mr-smithers-excellent/docker-build-push@v5
+//    name: Build & push Docker image
+//            with:
+//            image: repo/image
+//            tags: v1, latest
+//            registry: registry-url.io
+//            dockerfile: Dockerfile.ci
+//            username: ${{ secrets.DOCKER_USERNAME }}
+//            password: ${{ secrets.DOCKER_PASSWORD }}
 @RestController
 public class BooksController {
 
