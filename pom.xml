@@ -55,7 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>cicdspringboot_br1</finalName>
+		<finalName>cicdspringboot</finalName>
 	</build>
 
 </project>
