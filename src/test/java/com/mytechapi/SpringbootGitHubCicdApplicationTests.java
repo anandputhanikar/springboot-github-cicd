@@ -8,6 +8,7 @@ class SpringbootGitHubCicdApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
